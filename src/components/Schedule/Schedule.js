@@ -55,20 +55,14 @@ export class Schedule extends Component {
                 </div>
                 <div class="schedule-container">
                     <Timeline>
-                        <ScheduleItem time="8:00 am" activity="Check In" type="MPAC" Icon={<LoginIcon sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
-                        <ScheduleItem time="9:00 am" activity="Opening Ceremony" type="MPAC" Icon={<CelebrationIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
-                        <ScheduleItem time="09:30 am" activity="Hacking Starts and Team Formation" type="Commons" Icon={<LaptopIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
-                        <ScheduleItem time="11:00 am" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="12:00 am" activity="Guest Speaker: Mandatory" type="MPAC" Icon={<CampaignIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="1:00 pm" activity="Lunch" type="Gym" Icon={<LunchDiningIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
-                        <ScheduleItem time="2:00 pm" activity="Cyber Security Workshop by CyberAware" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="2:00 pm" activity="Workshop: TBD" type="MPAC" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="3:00 pm" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="3:00 pm" activity="Workshop: TBD" type="MPAC" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="4:00 pm" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="4:00 pm" activity="Workshop: TBD" type="MPAC" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="5:00 pm" activity="Workshop: TBD" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
-                        <ScheduleItem time="5:00 pm" activity="Workshop: TBD" type="MPAC" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="8:00 am" activity="Check In" type="MHS" Icon={<LoginIcon sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
+                        <ScheduleItem time="8:30 am" activity="Opening Ceremony" type="MPAC" Icon={<CelebrationIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
+                        <ScheduleItem time="09:00 am" activity="Hacking Starts and Team Formation" type="Commons" Icon={<LaptopIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
+                        <ScheduleItem time="09:30 am" activity="Breakfast" type="Commons" Icon={<LunchDiningIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
+                        <ScheduleItem time="12:00 am" activity="Guest Speaker: Princeton University" type="MPAC" Icon={<CampaignIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
+                        <ScheduleItem time="1:00 pm" activity="Lunch" type="Food Stand" Icon={<LunchDiningIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
+                        {/* <ScheduleItem time="2:00 pm" activity="Cyber Security Workshop by CyberAware" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} /> */}
+                        <ScheduleItem time="6:00 pm" activity="Dinner" type="Commons" Icon={<LunchDiningIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
                         <ScheduleItem time="7:00 pm" activity="Hacking Stops" Icon={<HourglassTopIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
                         <ScheduleItem time="7:30 pm" activity="Judging Starts" type="Commons" Icon={<GavelIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
                         <ScheduleItem time="9:00 pm" activity="Closing Ceremony" type="MPAC" Icon={<CelebrationIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
