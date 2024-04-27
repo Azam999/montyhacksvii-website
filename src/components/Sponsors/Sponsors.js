@@ -31,6 +31,7 @@ import montynews from "./assets/montynews.jpeg";
 import cyberaware from "./assets/cyberaware.png";
 import xyz from "./assets/xyz.png";
 import interviewcake from "./assets/interviewcake.png";
+import instacrystal from "./assets/instacrystal.png";
 import "./Sponsors.scss";
 
 export class Sponsors extends Component {
@@ -46,6 +47,7 @@ export class Sponsors extends Component {
                     <img id="sponsor-image" src={coderschool} alt="the coder school"/>
                     <img id="sponsor-image" src={montynews} alt="montgomery news"/>
                     <img id="sponsor-image" src={cyberaware} alt="cyber aware"/>
+                    <img id="sponsor-image" src={instacrystal} alt="insta crystal"/>
                 </div>
                 <br />
                 <br />

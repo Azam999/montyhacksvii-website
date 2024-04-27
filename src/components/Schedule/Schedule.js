@@ -61,9 +61,10 @@ export class Schedule extends Component {
                         <ScheduleItem time="09:30 am" activity="Breakfast" type="Commons" Icon={<LunchDiningIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
                         <ScheduleItem time="12:00 am" activity="Guest Speaker: Princeton University" type="MPAC" Icon={<CampaignIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
                         <ScheduleItem time="1:00 pm" activity="Lunch" type="Food Stand" Icon={<LunchDiningIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
-                        {/* <ScheduleItem time="2:00 pm" activity="Cyber Security Workshop by CyberAware" type="Science Wing" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} /> */}
+                        <ScheduleItem time="2:00 pm" activity="Echo3D Virtual Workshop" type="Library" Icon={<EngineeringIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
                         <ScheduleItem time="6:00 pm" activity="Dinner" type="Commons" Icon={<LunchDiningIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>} />
                         <ScheduleItem time="7:00 pm" activity="Hacking Stops" Icon={<HourglassTopIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
+                        <ScheduleItem time="7:00 pm" activity="Mario Kart Tournament" type="MPAC" Icon={<HourglassTopIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
                         <ScheduleItem time="7:30 pm" activity="Judging Starts" type="Commons" Icon={<GavelIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
                         <ScheduleItem time="9:00 pm" activity="Closing Ceremony" type="MPAC" Icon={<CelebrationIcon  sx={{width: "4cqmax", height: "4cqmax"}}/>}/>
                     </Timeline>
