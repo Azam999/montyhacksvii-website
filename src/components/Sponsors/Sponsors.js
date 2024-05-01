@@ -32,6 +32,8 @@ import cyberaware from "./assets/cyberaware.png";
 import xyz from "./assets/xyz.png";
 import interviewcake from "./assets/interviewcake.png";
 import instacrystal from "./assets/instacrystal.png";
+import wolfram from "./assets/wolfram.png";
+import echo3d from "./assets/echo3d.png";
 import "./Sponsors.scss";
 
 export class Sponsors extends Component {
@@ -60,6 +62,8 @@ export class Sponsors extends Component {
                 <div class="sponsor-content">
                     <img id="sponsor-image" src={xyz} alt="xyz"/>
                     <img id="sponsor-image" src={interviewcake} alt="interview cake"/>
+                    <img id="sponsor-image" src={wolfram} alt="wolfram alpha"/>
+                    <img id="sponsor-image" src={echo3d} alt="echo3d"/>
                 </div>
                 <br />
                 <br />
